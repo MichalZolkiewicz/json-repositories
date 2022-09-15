@@ -1,0 +1,12 @@
+package com.api.githubrepository;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GithubRepositoryApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GithubRepositoryApplication.class, args);
+	}
+}
